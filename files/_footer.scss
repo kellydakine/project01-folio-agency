@@ -1,0 +1,54 @@
+@import '../abstract/variables';
+
+.rectangle {
+    img {
+        width: 100%;
+    }
+    .first {
+        position: absolute;
+        h1 {
+            position: absolute;
+            margin-left: 400px;
+            margin-top: -720px;
+            text-align: center;
+            width: 568px;
+            height: 80px;
+            font-weight: 700;
+            font-size: 32px;
+            color: white;
+            line-height: 40px;
+        }
+        h2 {
+            margin-left: 620px;
+            margin-top: -780px;
+            height: 24px;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 24px;
+            color: white;
+        }
+    }
+    .second {
+        position: absolute;
+        h1 {
+            position: absolute;
+            margin-left: 200px;
+            margin-top: -360px;
+            width: 367px;
+            font-weight: 700;
+            font-size: 64px;
+            line-height: 72px;
+            color: white;
+        }
+        h2 {
+            margin-left: 800px;
+            margin-top: -250px;
+            width: 367px;
+            height: 80px;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 40px;
+            color: white;
+        }
+    }
+}

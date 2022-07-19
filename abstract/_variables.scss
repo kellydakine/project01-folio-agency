@@ -1,0 +1,71 @@
+$font-base: 'SF Pro Display', sans-serif;
+
+$background-color: #F2F2F2;
+$white: #FFFFFF;
+$dark-color: #232340;
+$body-light-color: #606060;
+$body-dark-color: #8B8B8B;
+$primary-color: #5468E7;
+
+@mixin header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+@mixin margin-pattern {
+    margin-left: 8rem;
+}
+
+@mixin margin-whoWeAre {
+    margin-left: 190px;
+}
+
+@mixin button-left-right {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    top: 50px;
+    font-size: 30px; 
+    border-radius: 80px;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    &:hover {
+        background-color: $primary-color;
+        transition: 200ms;
+    }
+}
+
+@mixin new-button {
+    width: 64px;
+    height: 64px;
+    font-size: 30px; 
+    border-radius: 80px;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    color: black;
+    &:hover {
+        background-color: $primary-color;
+        transition: 200ms;
+        color: white;
+    }
+}
+
+@mixin list-whaWeDo {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+@mixin shadow {
+    position: absolute;
+    width: 1300px;
+    height: 584px;
+    border-radius: 48px;
+    opacity: 0.4;
+    background-color: rgb(255, 255, 255);
+}

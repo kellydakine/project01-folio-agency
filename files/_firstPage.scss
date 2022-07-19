@@ -1,0 +1,67 @@
+@import '../abstract/variables';
+
+.main-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    .description {
+        display: flex;
+        flex-direction: column;
+        h1 {
+            @include margin-pattern;
+            font-weight: bolder;
+            font-size: 84px;
+            line-height: 100px;
+            margin-top: 8rem;
+            max-width: 29.1rem;
+            color: $dark-color;
+        }
+        p {
+            @include margin-pattern;
+            font-size: 18px;
+            line-height: 32px;
+            margin-top: 3rem;
+            max-width: 23rem;
+            color: $body-light-color;
+        }
+        .recent-work {
+            @include margin-pattern;
+            width: 11.25rem;
+            height: 4rem;
+            margin-top: 3rem;
+            border: none;
+            border-radius: 8px;
+            font-size: 18px;
+            font-weight: bolder;
+            color: white;
+            background: $primary-color;
+            cursor: pointer;
+        }
+    }
+}
+    .pc {
+        position: absolute;
+        width: 66%;
+        left: 365px;
+        top: 230px;
+    }
+    .backgroung-path {
+        position: absolute;
+        z-index: -1;
+        width: 50%;
+        left: 270px;
+        top: 1px;
+    }
+    .scroll-down {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: absolute;
+        width: 9.87rem;
+        height: 3rem;
+        margin-top: 860px;
+        @include margin-pattern;
+        color: $body-dark-color;
+    }
+
+    

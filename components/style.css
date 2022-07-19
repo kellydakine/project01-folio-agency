@@ -1,0 +1,947 @@
+@import './reset.css';
+html, body {
+  font-family: "SF Pro Display", sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 4rem;
+}
+header img {
+  width: 9.93rem;
+  height: 2.5rem;
+}
+header .header-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 31.25rem;
+}
+header .header-list li {
+  color: #8B8B8B;
+  font-size: 1.125rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+header .header-list li:hover {
+  color: #5468E7;
+}
+header .notification {
+  position: relative;
+  text-align: center;
+  width: 1.5rem;
+  height: 1.5rem;
+  right: 2.8rem;
+  top: -1rem;
+  border-radius: 12px;
+  font-size: 14px;
+  line-height: 22px;
+  color: white;
+  background-image: linear-gradient(#3A8FFF, #0837AE);
+}
+header .contact-us {
+  height: 4rem;
+  width: 11.25rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: bolder;
+  color: white;
+  background-color: #232340;
+  cursor: pointer;
+}
+
+.main-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.main-page .description {
+  display: flex;
+  flex-direction: column;
+}
+.main-page .description h1 {
+  margin-left: 8rem;
+  font-weight: bolder;
+  font-size: 84px;
+  line-height: 100px;
+  margin-top: 8rem;
+  max-width: 29.1rem;
+  color: #232340;
+}
+.main-page .description p {
+  margin-left: 8rem;
+  font-size: 18px;
+  line-height: 32px;
+  margin-top: 3rem;
+  max-width: 23rem;
+  color: #606060;
+}
+.main-page .description .recent-work {
+  margin-left: 8rem;
+  width: 11.25rem;
+  height: 4rem;
+  margin-top: 3rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bolder;
+  color: white;
+  background: #5468E7;
+  cursor: pointer;
+}
+
+.pc {
+  position: absolute;
+  width: 66%;
+  left: 365px;
+  top: 230px;
+}
+
+.backgroung-path {
+  position: absolute;
+  z-index: -1;
+  width: 50%;
+  left: 270px;
+  top: 1px;
+}
+
+.scroll-down {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  width: 9.87rem;
+  height: 3rem;
+  margin-top: 860px;
+  margin-left: 8rem;
+  color: #8B8B8B;
+}
+
+.background-pageTwo {
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  width: 100%;
+  height: 104.375rem;
+  top: 1070px;
+  background: #232340;
+}
+.background-pageTwo .logo-symbol {
+  position: absolute;
+  width: 1.5rem;
+  height: 1.5rem;
+  left: 135px;
+  top: 120px;
+}
+.background-pageTwo .path-two {
+  position: absolute;
+  width: 70rem;
+  height: 30.75rem;
+  left: 0px;
+  top: 10px;
+}
+.background-pageTwo .bg-dark3d {
+  position: absolute;
+  margin-top: -50px;
+  width: 750px;
+  height: 1052px;
+}
+
+.whoWeAre {
+  position: absolute;
+  width: 868px;
+  height: 192px;
+  left: 135px;
+  top: 1192px;
+}
+.whoWeAre .list-h1 {
+  position: absolute;
+  height: 24px;
+  margin-left: 190px;
+  margin-top: 1px;
+  font-weight: 600;
+  font-size: 18px;
+  color: #8B8B8B;
+}
+.whoWeAre .list-p {
+  position: absolute;
+  height: 24px;
+  margin-left: 280px;
+  margin-top: 1px;
+  font-weight: 400;
+  font-size: 18px;
+  color: white;
+}
+.whoWeAre .title-li {
+  position: absolute;
+  width: 668px;
+  height: 144px;
+  margin-left: 190px;
+  margin-top: 60px;
+  font-weight: 700;
+  font-size: 64px;
+  color: white;
+}
+.whoWeAre .button-left {
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  top: 50px;
+  font-size: 30px;
+  border-radius: 80px;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  margin-left: 1030px;
+}
+.whoWeAre .button-left:hover {
+  background-color: #5468E7;
+  transition: 200ms;
+}
+.whoWeAre .button-right {
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  top: 50px;
+  font-size: 30px;
+  border-radius: 80px;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  margin-left: 1100px;
+}
+.whoWeAre .button-right:hover {
+  background-color: #5468E7;
+  transition: 200ms;
+}
+.whoWeAre .years {
+  position: absolute;
+  width: 45px;
+  height: 528px;
+  top: 220px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+}
+.whoWeAre .years .year {
+  padding-top: 100px;
+  color: white;
+  cursor: pointer;
+}
+.whoWeAre .years .year:hover {
+  color: #8B8B8B;
+}
+.whoWeAre .desktop {
+  position: relative;
+  width: 100%;
+  margin-left: 190px;
+  margin-top: 290px;
+}
+.whoWeAre .whoWeAre-two h2 {
+  position: absolute;
+  width: 468px;
+  height: 80px;
+  left: 190px;
+  top: 1100px;
+  letter-spacing: -0.5px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  color: white;
+}
+.whoWeAre .whoWeAre-two h3 {
+  position: absolute;
+  width: 468px;
+  height: 96px;
+  left: 190px;
+  top: 1220px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #8B8B8B;
+}
+.whoWeAre .whoWeAre-two .number {
+  position: absolute;
+  width: 245px;
+  height: 238px;
+  left: 850px;
+  top: 1130px;
+  font-weight: 600;
+  font-size: 200px;
+  line-height: 239px;
+  color: white;
+}
+.whoWeAre .whoWeAre-two p {
+  position: absolute;
+  width: 245px;
+  height: 238px;
+  left: 885px;
+  top: 1240px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 239px;
+  color: white;
+}
+.whoWeAre .whoWeAre-two button {
+  position: absolute;
+  width: 180px;
+  height: 64px;
+  left: 190px;
+  top: 1360px;
+  border-radius: 8px;
+  border: none;
+  background-color: #5468E7;
+  color: white;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  cursor: pointer;
+}
+.whoWeAre .whoWeAre-two .vertical-line {
+  position: absolute;
+  height: 528px;
+  margin-top: 205px;
+  height: 80px;
+  width: 2px;
+  border-right: 1px solid #F1B2CC;
+}
+
+.section-whatWeDo .background-pageThree {
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  height: 5940px;
+  top: 2740px;
+  background: linear-gradient(360deg, rgba(255, 255, 255, 0.0001) 0%, rgba(237, 229, 240, 0.504289) 100%);
+}
+.section-whatWeDo .line-one {
+  z-index: -1;
+  position: absolute;
+  margin-left: 150px;
+  opacity: 0.5;
+}
+.section-whatWeDo .line-two {
+  width: 658.22px;
+  height: 780.35px;
+  position: absolute;
+  top: 860px;
+  left: 690px;
+  opacity: 0.2;
+}
+.section-whatWeDo .logo-symbol {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 135px;
+  top: 118px;
+}
+.section-whatWeDo .text-whatWeDo {
+  position: absolute;
+  width: 668px;
+  height: 192px;
+  left: 325px;
+  top: 2865px;
+}
+.section-whatWeDo .text-whatWeDo p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #5468E7;
+}
+.section-whatWeDo .text-whatWeDo h2 {
+  position: absolute;
+  height: 24px;
+  left: 50px;
+  margin-top: -22px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  color: #5468E7;
+}
+.section-whatWeDo .text-whatWeDo h1 {
+  position: absolute;
+  margin-top: 30px;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 72px;
+  color: #232340;
+}
+.section-whatWeDo .button-whatWeDo {
+  position: absolute;
+  width: 144px;
+  height: 64px;
+  left: 1180px;
+  top: 2920px;
+}
+.section-whatWeDo .button-whatWeDo .button-left {
+  width: 64px;
+  height: 64px;
+  font-size: 30px;
+  border-radius: 80px;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  color: black;
+}
+.section-whatWeDo .button-whatWeDo .button-left:hover {
+  background-color: #5468E7;
+  transition: 200ms;
+  color: white;
+}
+.section-whatWeDo .button-whatWeDo .button-right {
+  width: 64px;
+  height: 64px;
+  font-size: 30px;
+  border-radius: 80px;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  color: black;
+}
+.section-whatWeDo .button-whatWeDo .button-right:hover {
+  background-color: #5468E7;
+  transition: 200ms;
+  color: white;
+}
+.section-whatWeDo .sections {
+  position: relative;
+  align-items: center;
+  width: 1159px;
+  height: 584px;
+  margin-left: 190px;
+  margin-top: 2400px;
+}
+.section-whatWeDo .sections .items-sections {
+  display: inline-block;
+  padding: 90px 50px;
+  margin: -2px;
+  color: #5468E7;
+  background-color: white;
+}
+.section-whatWeDo .sections .items-sections:nth-child(1) {
+  border-bottom-left-radius: 30px;
+  border-top-left-radius: 30px;
+}
+.section-whatWeDo .sections .items-sections:nth-last-child(1) {
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 30px;
+}
+.section-whatWeDo .sections .items-sections:hover {
+  border-radius: 30px;
+  padding: 110px 50px;
+  color: white;
+  background-color: #5468E7;
+}
+.section-whatWeDo .sections .items-sections h1 {
+  padding-top: 50px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: -0.2px;
+}
+
+.achievement {
+  width: 100%;
+  height: 786px;
+  top: 3949px;
+}
+.achievement .circle {
+  position: absolute;
+  z-index: -1;
+  width: 30%;
+  height: 390px;
+  margin-left: 165px;
+  margin-top: 180px;
+  border-radius: 50%;
+  background-color: #FFC7DF;
+}
+.achievement .logo {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  margin-left: -420px;
+  margin-top: 150px;
+}
+.achievement .first {
+  position: relative;
+  width: 568px;
+  height: 144px;
+  margin-left: 730px;
+  margin-top: -633px;
+}
+.achievement .first p {
+  margin-left: 90px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #8B8B8B;
+}
+.achievement .first h2 {
+  margin-left: 150px;
+  margin-top: -24px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #232340;
+}
+.achievement .first h1 {
+  margin-top: 30px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+}
+.achievement .second {
+  width: 256px;
+  height: 270px;
+  margin-top: 50px;
+  margin-left: 730px;
+}
+.achievement .second p {
+  font-weight: 500;
+  font-size: 200px;
+  line-height: 239px;
+  color: #5468E7;
+}
+.achievement .second h2 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+}
+.achievement .pagination {
+  margin-left: 320px;
+  margin-top: 120px;
+}
+
+.famous-projects .first {
+  width: 868px;
+  height: 252px;
+  margin-top: 120px;
+  margin-left: 140px;
+}
+.famous-projects .first .logo {
+  width: 24px;
+  height: 24px;
+}
+.famous-projects .first h2 {
+  margin-left: 180px;
+  margin-top: -22px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #5468E7;
+}
+.famous-projects .first h1 {
+  margin-left: 180px;
+  margin-top: 20px;
+  font-weight: 700;
+  font-size: 84px;
+  line-height: 100px;
+  letter-spacing: -1px;
+  color: #232340;
+}
+.famous-projects .first h3 {
+  width: 467px;
+  height: 64px;
+  margin-top: 30px;
+  margin-left: 180px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #606060;
+}
+.famous-projects .contact-us {
+  position: absolute;
+  margin-left: 1120px;
+  margin-top: -190px;
+  height: 64px;
+  width: 166px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: bolder;
+  color: white;
+  background-color: #5468E7;
+  cursor: pointer;
+}
+.famous-projects .sapiens {
+  max-width: 90%;
+  margin: auto;
+}
+.famous-projects .sapiens .female {
+  margin-top: -110px;
+  margin-left: -160px;
+}
+.famous-projects .sapiens .view {
+  position: absolute;
+  margin-left: 300px;
+  margin-top: -220px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  width: 72px;
+  height: 72px;
+  border: none;
+  border-radius: 50px;
+  color: white;
+  background-color: #232340;
+}
+.famous-projects .sapiens .next {
+  position: absolute;
+  margin-top: -490px;
+  margin-left: 910px;
+  font-size: 30px;
+  width: 64px;
+  height: 64px;
+  border: none;
+  border-radius: 50px;
+  color: white;
+  background-color: #5468E7;
+}
+.famous-projects .sapiens .sapiens-text {
+  margin-left: 82px;
+  margin-top: -620px;
+  width: 633px;
+  height: 328px;
+}
+.famous-projects .sapiens .sapiens-text .featured-product {
+  margin-bottom: 25px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  width: 166px;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  background-color: #908CFF;
+}
+.famous-projects .sapiens .sapiens-text h1 {
+  width: 467px;
+  height: 96px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+}
+.famous-projects .sapiens .sapiens-text h2 {
+  margin-top: 28px;
+  width: 205px;
+  height: 160px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #606060;
+}
+.famous-projects .bento-vol2 {
+  position: absolute;
+}
+.famous-projects .bento-vol2 .bento {
+  margin-top: 300px;
+  margin-left: 500px;
+}
+.famous-projects .bento-3d {
+  position: relative;
+  width: 631px;
+  height: 724px;
+  margin-top: 290px;
+  margin-left: 10px;
+}
+.famous-projects .bento-3d h1 {
+  position: relative;
+  margin-top: 550px;
+  margin-left: 90px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  color: #232340;
+}
+.famous-projects .bento-3d .bento {
+  position: relative;
+  margin-top: 50px;
+}
+.famous-projects .bento-3d p {
+  margin-top: 15px;
+  width: 366px;
+  height: 96px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  margin-left: 90px;
+  color: #606060;
+}
+.famous-projects .bento-vol3 {
+  position: relative;
+  width: 631px;
+  height: 724px;
+  margin-top: 10px;
+  margin-left: 650px;
+}
+.famous-projects .bento-vol3 h1 {
+  position: relative;
+  margin-left: 105px;
+  margin-top: 15px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  color: #232340;
+}
+.famous-projects .bento-vol3 .bento {
+  position: relative;
+  margin-top: 50px;
+}
+.famous-projects .bento-vol3 p {
+  margin-top: 25px;
+  width: 366px;
+  height: 96px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  margin-left: 105px;
+  color: #606060;
+}
+.famous-projects .sapiens-man {
+  position: relative;
+  width: 398px;
+  height: 730px;
+  margin-top: -400px;
+  margin-left: 250px;
+}
+.famous-projects .sapiens-man h1 {
+  position: relative;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  color: #232340;
+}
+.famous-projects .sapiens-man .sapiens {
+  margin-top: -40px;
+}
+.famous-projects .sapiens-man p {
+  margin-top: -90px;
+  width: 366px;
+  height: 96px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #606060;
+}
+.famous-projects .cta img {
+  margin-left: 60px;
+  width: 90%;
+}
+.famous-projects .cta p {
+  margin-top: -540px;
+  margin-left: 720px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: white;
+}
+.famous-projects .cta h2 {
+  margin-left: 780px;
+  margin-top: -24px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: white;
+}
+.famous-projects .cta h1 {
+  margin-left: 720px;
+  margin-top: 25px;
+  width: 367px;
+  height: 288px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 72px;
+  color: white;
+}
+.famous-projects .cta button {
+  margin-left: 720px;
+  margin-top: 25px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  width: 201px;
+  height: 64px;
+  border: none;
+  border-radius: 8px;
+  color: #5468E7;
+  background-color: white;
+  cursor: pointer;
+}
+
+.jobs {
+  margin-top: 250px;
+  width: 100%;
+  height: 1300px;
+  background: linear-gradient(360deg, rgba(255, 255, 255, 0.0001) 0%, rgba(237, 229, 240, 0.504289) 100%);
+}
+.jobs .logo {
+  margin-left: 140px;
+  margin-top: 150px;
+  width: 24px;
+  height: 24px;
+}
+.jobs .path-jobs {
+  position: absolute;
+  margin-left: 150px;
+}
+.jobs .jobs-text {
+  margin-top: -25px;
+  margin-left: 250px;
+  width: 468px;
+  height: 436px;
+}
+.jobs .jobs-text p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #5468E7;
+}
+.jobs .jobs-text h2 {
+  margin-top: -25px;
+  margin-left: 60px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #5468E7;
+}
+.jobs .jobs-text h1 {
+  margin-top: 20px;
+  width: 468px;
+  height: 131px;
+  font-weight: 700;
+  font-size: 110px;
+  line-height: 131px;
+  color: #232340;
+}
+.jobs .jobs-text h3 {
+  margin-top: 30px;
+  width: 367px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #606060;
+}
+.jobs .jobs-text .available-jobs {
+  margin-top: 85px;
+  display: flex;
+  justify-content: start;
+}
+.jobs .jobs-text .available-jobs p {
+  margin-left: 15px;
+  width: 94px;
+  height: 48px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #8B8B8B;
+}
+.jobs .cards-jobs {
+  position: relative;
+  font-weight: 500;
+  margin-top: -450px;
+  font-size: 18px;
+  line-height: 24px;
+}
+.jobs .cards-jobs .cards-itens {
+  width: 500px;
+  height: 150px;
+  margin-top: 10px;
+  margin-left: 690px;
+  padding: 45px 45px 50px;
+  border-radius: 40px;
+  background-color: white;
+}
+.jobs .cards-jobs .cards-itens:hover {
+  color: white;
+  background-color: #232340;
+}
+.jobs .cards-jobs .cards-itens h1 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  color: #232340;
+}
+.jobs .cards-jobs .cards-itens h1:hover {
+  color: white;
+}
+.jobs .cards-jobs .cards-itens p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #606060;
+}
+.jobs .cards-jobs .cards-itens .phone-jobs {
+  position: absolute;
+  margin-top: -70px;
+  margin-left: 315px;
+  width: 215px;
+  height: 215px;
+}
+
+.rectangle img {
+  width: 100%;
+}
+.rectangle .first {
+  position: absolute;
+}
+.rectangle .first h1 {
+  position: absolute;
+  margin-left: 400px;
+  margin-top: -720px;
+  text-align: center;
+  width: 568px;
+  height: 80px;
+  font-weight: 700;
+  font-size: 32px;
+  color: white;
+  line-height: 40px;
+}
+.rectangle .first h2 {
+  margin-left: 620px;
+  margin-top: -780px;
+  height: 24px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  color: white;
+}
+.rectangle .second {
+  position: absolute;
+}
+.rectangle .second h1 {
+  position: absolute;
+  margin-left: 200px;
+  margin-top: -360px;
+  width: 367px;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 72px;
+  color: white;
+}
+.rectangle .second h2 {
+  margin-left: 800px;
+  margin-top: -250px;
+  width: 367px;
+  height: 80px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  color: white;
+}
+
+@media (max-width: 1024px) {
+  header {
+    width: 25rem;
+  }
+}/*# sourceMappingURL=style.css.map */
